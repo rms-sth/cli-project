@@ -2,9 +2,6 @@ import csv
 import sqlite3
 
 
-# git config --global user.name "Ramesh Pradhan"
-# git config --global user.email "pyrameshpradhan@gmail.com"
-
 def create_connection():
     try:
         conn = sqlite3.connect("users.sqlite3")
